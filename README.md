@@ -46,7 +46,7 @@ reporting a successful build.
 
 ## Related
 
-- [ToolBench XR](https://github.com/ajinkyagorad/ToolBenchXR) — Quest 3 · mixed reality
+- [ToolBench XR](https://github.com/ajinkyagorad/toolbench-xr) — Quest 3 · mixed reality
 - [Holo Idea Tests](https://github.com/ajinkyagorad/holo-idea-tests) — Quest 3 · mixed reality · sketches
 - [Planetary Vitals](https://github.com/ajinkyagorad/PlanetaryVitals) — Quest 3 · mixed reality · real data
 - [MRI Holo Viewer](https://github.com/ajinkyagorad/MRI-Holo-Viewer) — Quest 3 · passthrough · medical imaging
