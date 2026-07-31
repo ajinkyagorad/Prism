@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: membrane-transport
+  title: Membrane Transport
+  domain: 2
+  kind: 3
+  direction: {x: 0.06485654, y: -0.37060878, z: 0.9265219}
+  distance: 4.2
+  links:
+  - targetId: diffusion
+    relation: 2
+    strength: 0.85
+  worldId: 
+  formalisation: 'Flux across a membrane is gated by permeability: a wall does not
+    stop a gradient, it multiplies it by a number between zero and one.'
+  capability: Know, before you block it, what a channel actually controls.

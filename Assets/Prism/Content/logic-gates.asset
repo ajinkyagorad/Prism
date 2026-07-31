@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: logic-gates
+  title: Logic Gates
+  domain: 4
+  kind: 2
+  direction: {x: -0.63045126, y: 0.19609682, z: 0.7510508}
+  distance: 4.8
+  links:
+  - targetId: feedback
+    relation: 7
+    strength: 0.55
+  worldId: 
+  formalisation: A closed switch is a 1, an open one a 0. Series conducts only if
+    every switch is closed (AND); parallel conducts if any switch is closed (OR).
+    Computation is a shape made of switches.
+  capability: Wire two switches in series or in parallel and predict which one just
+    became an AND and which became an OR.

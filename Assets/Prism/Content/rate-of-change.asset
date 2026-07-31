@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: rate-of-change
+  title: Rate of Change
+  domain: 6
+  kind: 1
+  direction: {x: -0.12630294, y: -0.42, z: -0.89869213}
+  distance: 4.9
+  links:
+  - targetId: periodic-motion
+    relation: 7
+    strength: 0.55
+  worldId: 
+  formalisation: How much one quantity changes for a small change in another. Every
+    derivative is a rate of change; not every rate of change needs a formula to be
+    felt first.
+  capability: Feel whether something is growing or shrinking, and how fast, before
+    naming it.

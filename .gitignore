@@ -1,0 +1,29 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+*.csproj
+*.sln
+*.unityproj
+*.pidb
+*.booproj
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+
+# Payloads fetched by the project's own tooling — see ASSETS.md
+*.onnx
+*.nii
+*.nii.gz
+*.glb
+*.fbx
+*.tif
+*.exr
+*.hdr
+*.mp4

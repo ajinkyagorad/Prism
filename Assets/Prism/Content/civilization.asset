@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: civilization
+  title: Trade Networks
+  domain: 9
+  kind: 2
+  direction: {x: -0.52981335, y: 0.019996002, z: 0.8478786}
+  distance: 3.6
+  links:
+  - targetId: specialisation
+    relation: 6
+    strength: 0.8
+  - targetId: supply-and-demand
+    relation: 6
+    strength: 0.85
+  - targetId: networks
+    relation: 1
+    strength: 0.7
+  worldId: civilization
+  formalisation: A market of settlements, each holding a real stock of goods that
+    rises with production and falls with need. Price rises as stock falls. Goods
+    move, along a route the learner draws, from wherever a good is cheap toward wherever
+    it is dear, at a rate set by whatever is left of that price gap once the cost
+    of the route itself is paid.
+  capability: Read a settlement's colour as real surplus or shortage, and connect
+    a network so every settlement gets what it lacks.

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: quantum-garden
+  title: Quantum Garden
+  domain: 0
+  kind: 2
+  direction: {x: 0.99875236, y: 0.04993762, z: -0.000000043656854}
+  distance: 3.6
+  links:
+  - targetId: superposition
+    relation: 6
+    strength: 0.85
+  - targetId: measurement
+    relation: 6
+    strength: 0.85
+  - targetId: quantisation
+    relation: 6
+    strength: 0.75
+  worldId: quantum-garden
+  formalisation: A source of definite, localised detections whose density over many
+    trials follows the squared magnitude of a complex amplitude that itself obeys
+    ordinary wave addition.
+  capability: Grow an interference pattern one particle at a time, and say why it
+    is there.

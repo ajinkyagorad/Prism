@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: cardiac-cycle
+  title: The Cardiac Cycle
+  domain: 3
+  kind: 1
+  direction: {x: 0.9214444, y: 0.19611615, z: 0.33537835}
+  distance: 5.2
+  links:
+  - targetId: periodic-motion
+    relation: 3
+    strength: 0.85
+  - targetId: pressure-and-flow
+    relation: 4
+    strength: 0.75
+  worldId: 
+  formalisation: "Systole ejects, diastole fills; the beat repeats with a period
+    set by heart rate \u2014 the same shape as any other periodic motion."
+  capability: Feel the difference between the heart pushing and the heart filling.

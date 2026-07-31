@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: kepler-laws
+  title: Kepler's Laws
+  domain: 1
+  kind: 3
+  direction: {x: 0.297775, y: -0.44666246, z: 0.8436958}
+  distance: 1.1
+  links:
+  - targetId: inverse-square
+    relation: 4
+    strength: 0.7
+  worldId: 
+  formalisation: T^2 proportional to a^3. Kepler found it in data; it falls out of
+    the inverse square law.
+  capability: Get a period from an orbit's size without simulating it.

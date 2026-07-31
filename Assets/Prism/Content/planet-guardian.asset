@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: planet-guardian
+  title: Planet Guardian
+  domain: 5
+  kind: 2
+  direction: {x: 0.30863085, y: 0.04997917, z: -0.9498679}
+  distance: 3.6
+  links:
+  - targetId: energy-balance
+    relation: 6
+    strength: 0.9
+  - targetId: albedo
+    relation: 6
+    strength: 0.8
+  - targetId: tipping-points
+    relation: 6
+    strength: 0.8
+  - targetId: equilibrium
+    relation: 2
+    strength: 0.75
+  - targetId: feedback
+    relation: 3
+    strength: 0.9
+  worldId: planet-guardian
+  formalisation: 'A planet''s temperature is set by a balance: energy absorbed from
+    its star against energy radiated to space. The balance has memory, and near certain
+    thresholds it stops being reversible.'
+  capability: Hold a planet's temperature where you want it, against its own inertia.

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: periodic-motion
+  title: Periodic Motion
+  domain: 0
+  kind: 1
+  direction: {x: 0.894675, y: 0.42379344, z: 0.14126448}
+  distance: 1.4
+  links:
+  - targetId: waves
+    relation: 3
+    strength: 0.85
+  - targetId: rhythm
+    relation: 3
+    strength: 0.75
+  worldId: 
+  formalisation: Motion that repeats with a fixed period. Orbits, pendulums, springs
+    and waves are the same statement in different materials.
+  capability: Spot a thing that will come back around, and say when.

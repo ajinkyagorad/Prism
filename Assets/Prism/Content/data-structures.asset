@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: data-structures
+  title: Data Structures
+  domain: 4
+  kind: 2
+  direction: {x: 0.840984, y: -0.3303504, z: -0.42850262}
+  distance: 4.9
+  links: []
+  worldId: 
+  formalisation: 'The same values, held in a different shape, change what an operation
+    on them costs: a flat line and a branching structure pay differently for the
+    same sort.'
+  capability: Choose the arrangement that makes the operation you actually need to
+    do cheap.

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: math-motion
+  title: Mathematics of Motion
+  domain: 6
+  kind: 2
+  direction: {x: -0.27529258, y: 0.050000004, z: -0.9600594}
+  distance: 3.6
+  links:
+  - targetId: derivative
+    relation: 6
+    strength: 0.9
+  - targetId: integral
+    relation: 6
+    strength: 0.9
+  - targetId: rate-of-change
+    relation: 6
+    strength: 0.8
+  - targetId: critical-point
+    relation: 6
+    strength: 0.7
+  - targetId: orbital-mechanics
+    relation: 7
+    strength: 0.55
+  worldId: math-motion
+  formalisation: 'Calculus in one picture: a function, the slope that rides along
+    it, and the area that adds back up to where you started.'
+  capability: Feel the slope of a curve as a number, and watch accumulation build
+    a curve back up.

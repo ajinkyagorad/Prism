@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: supply-and-demand
+  title: Supply and Demand
+  domain: 9
+  kind: 4
+  direction: {x: -0.13916308, y: -0.011999136, z: 0.99019676}
+  distance: 5
+  links:
+  - targetId: comparative-advantage
+    relation: 5
+    strength: 0.75
+  - targetId: feedback
+    relation: 3
+    strength: 0.8
+  worldId: 
+  formalisation: Price is not announced by anyone; it is what a settlement's own
+    stock implies. Scarcity raises it, surplus lowers it, and the gap between two
+    settlements' prices is what pays for a trade route.
+  capability: 'Read a price the way this world sets one: rising as a good runs short,
+    falling as it piles up.'

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: machine-cathedral
+  title: Machine Cathedral
+  domain: 4
+  kind: 2
+  direction: {x: -0.8079, y: 0.049932018, z: 0.5872005}
+  distance: 3.6
+  links:
+  - targetId: mechanical-advantage
+    relation: 6
+    strength: 0.9
+  - targetId: torque
+    relation: 6
+    strength: 0.85
+  - targetId: logic-gates
+    relation: 6
+    strength: 0.8
+  worldId: machine-cathedral
+  formalisation: 'Every machine here trades one quantity for its reciprocal through
+    a single ratio: effort times its distance equals load times its distance. Nothing
+    in this cathedral is exempt.'
+  capability: Turn a small effort into a large force, or a small motion into a large
+    one -- never both -- and say which trade a lever, a gear train or a pulley just
+    made.

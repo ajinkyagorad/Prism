@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: networks
+  title: Networks
+  domain: 9
+  kind: 2
+  direction: {x: -0.03489665, y: 0.012998901, z: 0.9993064}
+  distance: 3.9
+  links: []
+  worldId: 
+  formalisation: Settlements are nodes; routes are edges with a real cost. What can
+    flow across the whole network depends on its shape, not only on any one route.
+  capability: 'Build redundancy: a network where losing one connection does not isolate
+    anyone.'

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: heritability
+  title: Heritability
+  domain: 2
+  kind: 0
+  direction: {x: -0.90692264, y: -0.2079117, z: -0.36642075}
+  distance: 4.4
+  links:
+  - targetId: selection
+    relation: 2
+    strength: 0.75
+  worldId: 
+  formalisation: 'The tendency of offspring to resemble a parent in a trait: an offspring''s
+    value scatters around the parent''s by a small random amount, never copied exactly.'
+  capability: Tell how closely offspring trait values track a parent's, and how much
+    scatters.

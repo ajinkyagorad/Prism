@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: algorithm-city
+  title: Algorithm City
+  domain: 4
+  kind: 2
+  direction: {x: 0.80901706, y: 0, z: -0.58778524}
+  distance: 3.3
+  links:
+  - targetId: algorithmic-cost
+    relation: 5
+    strength: 0.85
+  - targetId: data-structures
+    relation: 6
+    strength: 0.8
+  - targetId: recursion
+    relation: 1
+    strength: 0.75
+  - targetId: comparison
+    relation: 6
+    strength: 0.65
+  worldId: algorithm-city
+  formalisation: An algorithm is a physical process with a cost. The same data, sent
+    through a different structure, can cost ten times less to put in order.
+  capability: Watch a computation happen, reach in, and change what it does while
+    it runs.

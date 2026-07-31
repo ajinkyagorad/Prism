@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: mechanical-advantage
+  title: Mechanical Advantage
+  domain: 4
+  kind: 3
+  direction: {x: -0.8890343, y: 0.1483372, z: 0.4331446}
+  distance: 4
+  links:
+  - targetId: energy-conservation
+    relation: 1
+    strength: 0.85
+  - targetId: torque
+    relation: 6
+    strength: 0.7
+  - targetId: logic-gates
+    relation: 7
+    strength: 0.6
+  worldId: 
+  formalisation: MA = load force / effort force = effort distance / load distance.
+    The two ratios are the same number, which is why a machine can multiply force
+    or multiply speed but never both at once.
+  capability: Predict whether a configuration will make something easier to move
+    or faster to move, before touching it.

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: derivative
+  title: Derivative
+  domain: 6
+  kind: 3
+  direction: {x: -0.06654337, y: 0.3, z: -0.95161545}
+  distance: 4.1
+  links:
+  - targetId: rate-of-change
+    relation: 1
+    strength: 0.85
+  - targetId: integral
+    relation: 7
+    strength: 0.7
+  - targetId: vectors
+    relation: 3
+    strength: 0.8
+  - targetId: periodic-motion
+    relation: 3
+    strength: 0.65
+  - targetId: orbital-mechanics
+    relation: 7
+    strength: 0.6
+  worldId: 
+  formalisation: f'(x) = lim(h -> 0) [f(x+h) - f(x)] / h. The slope of the line that
+    only just touches the curve.
+  capability: Read the steepness of a curve at a point as a signed number, and grab
+    it directly.

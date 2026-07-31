@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: diffusion
+  title: Diffusion
+  domain: 0
+  kind: 1
+  direction: {x: 0.49437404, y: -0.17047381, z: 0.85236907}
+  distance: 3.9
+  links:
+  - targetId: probability
+    relation: 3
+    strength: 0.55
+  worldId: 
+  formalisation: 'Fick''s first law: J = -D * dC/dx. Net flow runs down the concentration
+    gradient at a rate set by the diffusion constant D.'
+  capability: Predict which way a gradient will push, and how fast, before it happens.

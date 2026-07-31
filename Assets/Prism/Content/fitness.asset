@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33335b81daef3064be56cf0ff0dd732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prism.Core.ConceptDefinition
+  id: fitness
+  title: Fitness
+  domain: 2
+  kind: 0
+  direction: {x: -0.8498266, y: -0.32556817, z: -0.41448793}
+  distance: 5.1
+  links:
+  - targetId: selection
+    relation: 5
+    strength: 0.8
+  worldId: 
+  formalisation: The expected number of offspring a trait value leaves in a specific
+    environment. A property of the trait-environment pairing, not of the organism
+    alone, and it changes the moment the environment does.
+  capability: Read a fitness number as an offspring count in this environment, never
+    as a merit score.
