@@ -1,0 +1,14 @@
+camera        (0.00, 0.00, 0.00)  fov 60
+environment   present
+  Sky        active=True enabled=True pos=(0.0, 0.0, 0.0) scale=160.0 bounds=(320, 320, 320) shader=Prism/Sky
+  Ground     active=True enabled=True pos=(0.0, -1.6, 0.0) scale=1.0 bounds=(1800, 154, 1800) shader=Prism/Ground
+atrium        present active=True
+  root pos    (0.00, 0.00, 0.00)
+  nodes       65
+    orbital-mechanics      world=(0.00, -0.05, 0.95) scale=0.067 rendererEnabled=True visible=False
+    gravity                world=(-0.62, 0.11, 0.96) scale=0.098 rendererEnabled=True visible=False
+    inverse-square         world=(-1.24, 0.46, 0.59) scale=0.066 rendererEnabled=True visible=False
+    conic-sections         world=(0.77, 0.27, 0.88) scale=0.054 rendererEnabled=True visible=False
+    energy-conservation    world=(0.46, 0.72, 0.98) scale=0.111 rendererEnabled=True visible=False
+cameras enabled: 
+  ~PrismShotCam      depth=0 pos=(0.00, 0.00, 0.00)

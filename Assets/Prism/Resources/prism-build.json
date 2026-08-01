@@ -1,0 +1,10 @@
+{
+    "semantic": "0.5.0",
+    "codename": "eleven-places",
+    "code": 6,
+    "builtUtc": "2026-07-30 22:32:36Z",
+    "channel": "dev",
+    "worlds": 11,
+    "concepts": 65,
+    "demos": 55
+}

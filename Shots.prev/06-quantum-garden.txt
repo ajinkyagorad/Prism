@@ -1,0 +1,1 @@
+Quantum Garden. Real complex amplitudes summed over paths; fringe spacing is computed, and each detection is an honest sample from |psi|^2.

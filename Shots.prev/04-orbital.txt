@@ -1,0 +1,1 @@
+Orbital Mechanics. mu is derived so a circular orbit at 20 cm takes 6 s — which puts the boundary between orbiting and escaping at 8.7 cm/s of wrist.
