@@ -38,3 +38,26 @@ mono_crash.*
 .idea/
 *.swp
 *~
+
+# added 2026-09-06 before GitHub push
+Library/
+Temp/
+Obj/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+node_modules/
+__pycache__/
+.env
+.env.*
+!.env.example
+dev-token*
+*_secrets/
+secrets/
+*.keystore
+*.jks
+local.properties
+*keys.json
+*.pem
