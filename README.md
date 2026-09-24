@@ -1,5 +1,12 @@
 # PRISM
 
+<!-- quest-controller-rule:start -->
+## Global Quest 3 controller rule
+
+**Help stays hidden by default.** Use official Touch Plus models with input-driven button/trigger/stick animation. Optional help shows only usable actions immediately beside the actual controls, without arrows or leader lines. Follow the [shared convention and official asset paths](../QUEST-CONTROLLER-CONVENTIONS.md). This is a requirement for future work; existing releases may still need implementation.
+<!-- quest-controller-rule:end -->
+
+
 A spatial universe of living knowledge for Meta Quest 3 — where a learner does not watch a lesson
 but enters a concept, takes hold of it, and finds out what it does.
 

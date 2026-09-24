@@ -61,3 +61,11 @@ secrets/
 local.properties
 *keys.json
 *.pem
+
+# standard ignores (2026-09-24)
+build/
+MemoryCaptures/
+.gradle/
+.pio/
+*.tmp
+*_BackUpThisFolder_ButDontShipItWithYourGame/
